@@ -1,0 +1,168 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 70vw;
+    height: 90vh;
+    margin:5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.left h3 {
+    width: 100%;
+    text-align: center;
+}
+
+#displaySection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: --moz-fit-content;
+    height: fit-content;
+}
+
+.right {
+    position: static;
+    padding: 3px;
+    background-color:rgb(134, 134, 134);
+    width: 30%;
+    align-items: left;
+    border-radius: 10px;
+}
+.right h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.borrowedDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    width: 100%;
+    height: 100%;
+}
+
+.borrowedList {
+    list-style: none;
+    padding: 0;
+}
+
+.borrowedItem {
+    margin: 10px;
+    border: 0;
+}
+
+.borrowedItem h5 {
+    width: 100%;
+    text-align: center;
+    color: rgb(41, 41, 41);
+}
+
+.borrowedTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.borrowedInfo, .borrowedInfo p {
+    font-size: 1.2rem;
+}
+
+.bookItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding:0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+img {
+    /* 
+    cover - Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges
+    Set the image width to 100% and the height to auto
+    
+    */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.bookInfo {
+    padding:10px;
+    background-color: rgb(170, 170, 170);
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.borrowBtn {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 0;
+}
+
+.borrowBtn:hover {
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+}
+
+.borrowForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: fit-content;
+}
+
+.borrowInputField, .borrowConst {
+    font-size: 1.2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.borrowConst {
+    border: 0;
+}
+
+#navbar {
+    width: 100%;
+    height: 40px;
+    padding-bottom: 20px;
+}
+
+#nav_ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#nav_ul > li {
+    list-style: none;
+}

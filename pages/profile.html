@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link custom CSS -->
+    <link rel="stylesheet" href="../static/profile.css">
+    <!-- link custom JS -->
+    <script src="../profile.js"></script>
+
+    <title>View Profile</title>
+</head>
+<body>
+    <!-- Navbar Section START -->
+    <nav id = "navbar">
+        <ul id="nav_ul">
+            <li>
+                <a href="/pages/homepage.html" >Home</a>
+            </li>
+            <li>
+                <a href="/pages/profile.html" >Profile</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Navbar Section END -->
+    
+    <div class="container">
+        <div class="header">
+            <h1>View Profile</h1>
+        </div>
+        <!-- 
+            > Create a view profile page that shows the user's details
+            from the local storage.
+            > The details should be as below:
+            - First Name
+            - Last Name
+            - Email
+            - Phone Number
+            - Address
+            - City
+            - State
+            - Zip Code
+            - Country
+            
+            > Allow the user to edit the fields and save the changes
+        -->
+        <div class="content">
+            <div class="profile">
+                <div class="title">
+                    <h2>Profile Details</h2>
+                </div>
+                <hr>
+                <div class="details">
+                    <form id="profileForm">
+                        <div class="detail">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="firstName" id="firstName" placeholder="Enter First Name">
+                        </div>
+                        <div class="detail">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="lastName" id="lastName" placeholder="Enter Last Name">
+                        </div>
+                        <div class="detail">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Enter Email">
+                        </div>
+                        <div class="detail">
+                            <label for="password">Password</label>
+                            <input type="text" name="password" id="password" placeholder="Enter Password">
+                        </div>
+                        <div class="detail">
+                            <label for="phoneNumber">Phone Number</label>
+                            <input type="text" name="phone" id="phoneNumber" placeholder="Enter Phone Number">
+                        </div>
+                        <div class="detail">
+                            <label for="address">Address</label>
+                            <input type="text" name="address" id="address" placeholder="Enter Address">
+                        </div>
+                        <div class="detail">
+                            <label for="city">City</label>
+                            <input type="text" name="city" id="city" placeholder="Enter City">
+                        </div>
+                        <div class="detail">
+                            <label for="state">State</label>
+                            <input type="text" name="state" id="state" placeholder="Enter State">
+                        </div>
+                        <div class="detail">
+                            <label for="zipCode">Zip Code</label>
+                            <input type="text" name="zipCode" id="zipCode" placeholder="Enter Zip Code">
+                        </div>
+                        <div class="detail">
+                            <label for="country">Country</label>
+                            <input type="text" name="country" id="country" placeholder="Enter Country">
+                        </div>
+                        <input type="submit" class="save_btn" id="save_btn" value="Save">
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

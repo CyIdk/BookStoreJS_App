@@ -1,0 +1,91 @@
+/* 
+    This css page provides the styling for the profile page. It is imported into the profile.html page.
+*/
+
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+/* Style the card that contains the user details */
+.content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: arial;
+}
+
+/* Style the details div that contains all the separate details of the user */
+.details {
+    padding: 2px 16px;
+}
+
+/* Style the user detail div that contains the label and inputs */
+.detail {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+    text-align: left;
+}
+
+/* Style the label elements */
+label {
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+/* Style the input fields */
+input {
+    outline: none;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+}
+
+/* Style the save button */
+.save_btn {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Style the save button on hover */
+.save_btn:hover {
+    opacity: 0.8;
+    border-radius: 120px;
+    color: black;
+}
+
+#navbar {
+    width: 100%;
+    height: 40px;
+    padding-bottom: 20px;
+}
+
+#nav_ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#nav_ul > li {
+    list-style: none;
+}
