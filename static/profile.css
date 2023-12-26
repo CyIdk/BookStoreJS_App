@@ -2,6 +2,22 @@
     This css page provides the styling for the profile page. It is imported into the profile.html page.
 */
 
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
 /* Style the body */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -72,20 +88,4 @@ input {
     opacity: 0.8;
     border-radius: 120px;
     color: black;
-}
-
-#navbar {
-    width: 100%;
-    height: 40px;
-    padding-bottom: 20px;
-}
-
-#nav_ul {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-}
-
-#nav_ul > li {
-    list-style: none;
 }

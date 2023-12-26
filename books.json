@@ -1,0 +1,102 @@
+    const listOfBooks = 
+[
+    {
+        "title": "The Canterbury Tales",
+        "author": "Geoffery Chaucer",
+        "date_published": "2021-09-01",
+        "copies_available": 5,
+        "ISBN": "12ERTYU876IOKJH34567",
+        "category": "Non-Fictional",
+        "image_src": "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010__340.jpg"
+    },
+    {
+        "title": "Beuwolf",
+        "author": "Geofery Chaucer",
+        "date_published": "2021-09-01",
+        "copies_available": 5,
+        "ISBN": "12MNBGYU76IOKJH98567",
+        "category": "Non-Fictional",
+        "image_src": "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010__340.jpg"
+    },
+    {
+        "title": "Mid Summer Night's Dream",
+        "author": "William Shakespeare",
+        "date_published": "2021-09-01",
+        "copies_available": 5,
+        "ISBN": "KJHGFRTYU987654YTR",
+        "category": "Non-Fictional",
+        "image_src": "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010__340.jpg"
+    },
+    {
+        "title": "The Defining Decade",
+        "author": "Dr. Jay",
+        "date_published": "2021-09-01",
+        "copies_available": 5,
+        "ISBN": "12ERTYU876IOKJH34567",
+        "category": "Non-Fictional",
+        "image_src": "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010__340.jpg"
+    },
+    {
+        "title": "Maps of Meaning",
+        "author": "Jordan Peterson",
+        "date_published": "2021-09-01",
+        "copies_available": 5,
+        "ISBN": "12ERTYU876IOKJH34567",
+        "category": "Non-Fictional",
+        "image_src": "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010__340.jpg"
+    },
+    {
+        "title": "12 Rules of Life",
+        "author": "Jordan Peterson",
+        "date_published": "2021-09-01",
+        "copies_available": 5,
+        "ISBN": "12ERTYU876IOKJH34567",
+        "category": "Non-Fictional",
+        "image_src": "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010__340.jpg"
+    },
+    {
+        "title": "Ode to A Knightingale",
+        "author": "John Keates",
+        "date_published": "2021-09-01",
+        "copies_available": 5,
+        "ISBN": "12ERTYU876IOKJH34567",
+        "category": "Non-Fictional",
+        "image_src": "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010__340.jpg"
+    },
+    {
+        "title": "Julius Ceaser",
+        "author": "William Shakespeare",
+        "date_published": "2021-09-01",
+        "copies_available": 5,
+        "ISBN": "12ERTYU876IOKJH34567",
+        "category": "Non-Fictional",
+        "image_src": "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010__340.jpg"
+    },
+    {
+        "title": "Othello",
+        "author": "William Shakespeare",
+        "date_published": "2021-09-01",
+        "copies_available": 5,
+        "ISBN": "12ERTYU876IOKJH34567",
+        "category": "Non-Fictional",
+        "image_src": "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010__340.jpg"
+    },
+    {
+        "title": "Paradise Lost",
+        "author": "John Milton",
+        "date_published": "2021-09-01",
+        "copies_available": 5,
+        "ISBN": "12ERTYU876IOKJH34567",
+        "category": "Non-Fictional",
+        "image_src": "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010__340.jpg"
+    },
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "date_published": "2021-09-01",
+        "copies_available": 5,
+        "ISBN": "12ERTYU876IOKJH34567",
+        "category": "Non-Fictional",
+        "image_src": "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010__340.jpg"
+    }
+]
